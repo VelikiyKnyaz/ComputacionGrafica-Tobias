@@ -7,41 +7,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Material
-  m_Shader: {fileID: -6465566751694194690, guid: 5074a33bf7680504baa2d98955d48605,
+  m_Name: Smoke
+  m_Shader: {fileID: -6465566751694194690, guid: f419b3a171c3a1c4db56be3d39b67a98,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
-  - SHADOWCASTER
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: c6ebdec99b6502f489ddaa4536afcb48, type: 3}
+    - _BaseMap:
+        m_Texture: {fileID: 10307, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: fc19aa6bb0c2fb747b5d5ea55d60adb3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_124fcb7c350142328fefd0619173cc50_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 2371541e94718c44986a01b1864f7b43, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_96b6b5652c2a408182083b9d7e62f879_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 5032b395a18027845ae4f4e26598813c, type: 3}
+    - _DistortionMap:
+        m_Texture: {fileID: 2800000, guid: 2aaf48121fa78bb4992526b54ed52abf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -58,30 +46,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _CastShadows: 0
-    - _Cull: 2
-    - _DstBlend: 10
-    - _IntersecSmoothness: 0.1
-    - _IntersecTIC: 0.1
-    - _NormalStrength: 0.64
-    - _NormalTiling: 1
+    - _DistortionIntensity: 3.73
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
-    - _indexRefraction: 2.15
-    - _rafracIntensity: 40
     m_Colors:
-    - _Color: {r: 1.1921568, g: 5.458824, b: 4.454902, a: 1}
-    - _NormalVel: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+    - _BaseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _DistortionOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _DistortionSpeed: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _DistortionTiling: {r: 0.6, g: 0.48, b: 0, a: 0}
+    - _smooth: {r: 0.7, g: 0.7, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &5006931969718447039
+--- !u!114 &152690959397910367
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
