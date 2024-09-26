@@ -53,8 +53,8 @@ Material:
     - _BaseOffset: {r: 0, g: 0, b: 0, a: 0}
     - _BaseTiling: {r: 1, g: 1, b: 0, a: 0}
     - _DistortionOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _DistortionSpeed: {r: 0.2, g: 0.2, b: 0, a: 0}
-    - _DistortionTiling: {r: 0.6, g: 0.48, b: 0, a: 0}
+    - _DistortionSpeed: {r: 0.1, g: 0.15, b: 0, a: 0}
+    - _DistortionTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _smooth: {r: 0.7, g: 0.7, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &152690959397910367
